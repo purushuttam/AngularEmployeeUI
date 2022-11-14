@@ -11,6 +11,7 @@ import { EmployeeListComponent } from './components/employee-list/employee-list.
 import { AddEmployeeComponent } from './components/add-employee/add-employee.component';
 import { AddDepartmentComponent } from './components/add-department/add-department.component';
 import { DetailsViewComponent } from './components/details-view/details-view.component';
+import { PopularRouteSearchComponent } from './components/popular-route-search/popular-route-search.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { DetailsViewComponent } from './components/details-view/details-view.com
     EmployeeListComponent,
     AddEmployeeComponent,
     AddDepartmentComponent,
-    DetailsViewComponent
+    DetailsViewComponent,
+    PopularRouteSearchComponent
   ],
   imports: [
     BrowserModule,
